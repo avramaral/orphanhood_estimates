@@ -1,0 +1,386 @@
+---
+title: "Orphanhood in Colombia"
+format:
+  html: 
+    css: "style.css"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library("tidyverse")
+library("DT")
+```
+
+The 32 departments and one capital district (Bogotá) can be grouped together into the 6 natural regions of Colombia, namely, Pacífico, Caribe, Andina, Orinoquía, Amazónica, and Insular.
+
+|                      |                      |                      |
+|----------------------|----------------------|----------------------|
+| ![](images/map1.png) | ![](images/map2.png) | ![](images/map3.png) |
+
+### Orphanhood estimates
+
+These are the orphanhood prevalence estimates in 2021 (total and %) for all departments, stratified by regions.
+
+![](images/prevalence_2021.jpeg)
+
+These are the orphanhood incidence estimates from 2015 to 2021 (for children who lost their mother, father, or both) for all departments, stratified by regions.
+
+![](images/incidence_rel.jpeg)
+
+These are the orphanhood incidence estimates in 2015 by municipality (per 1,000 children aged 0-17 years).
+
+![](images/orphans_rate_2021.jpeg)
+
+------------------------------------------------------------------------
+
+### Tables and raw data
+
+The following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") at the national, regional, and department levels.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+main_table <- read_csv(file = "data/main_table.csv") 
+
+colnames(main_table)[4:7] <- c("Prev.", "Prev. (%)", "Incid.", "Incid. (%)")
+
+datatable(main_table, rownames = FALSE, options = list(pageLength = 40))
+```
+<br />
+
+Complementary, the following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") of children who lost their mother, father, or both, at the national, regional, and department levels.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+secondary_table <- read_csv(file = "data/table_appendix.csv") 
+
+colnames(secondary_table)[4:15] <- c("Prev. Mother",
+                                     "Prev. Father",
+                                     "Prev. Both",
+                                     "Prev. Mother (%)",
+                                     "Prev. Father (%)",
+                                     "Prev. Both (%)",
+                                     "Incid. Mother",
+                                     "Incid. Father",
+                                     "Incid. Both",
+                                     "Incid. Mother (%)",
+                                     "Incid. Father (%)",
+                                     "Incid. Both (%)")
+
+datatable(secondary_table, rownames = FALSE, options = list(pageLength = 40))
+```
+
+------------------------------------------------------------------------
+
+<br />
+Lastly, the following tables show the orphanhood incidence estimates in 2021 ("total" and "% of children aged 0-17 years") of children who lost their mother, father, or both, at the municipality level. Each table refers the municipalities from a specific department.
+
+##### Amazonas
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab1 <- read_csv(file = "data/MUN_PER_DEP/mun_in_amazonas.csv") 
+
+change_col_name <- function (tab) {
+  colnames(tab)[2:7] <- c("Incid. Mother",
+                          "Incid. Father",
+                          "Incid. Both",
+                          "Incid. Mother (%)",
+                          "Incid. Father (%)",
+                          "Incid. Both (%)")
+  tab
+}
+
+datatable(change_col_name(tab1), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Antioquia 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab2 <- read_csv(file = "data/MUN_PER_DEP/mun_in_antioquia.csv") 
+datatable(change_col_name(tab2), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Arauca    
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab3 <- read_csv(file = "data/MUN_PER_DEP/mun_in_arauca.csv") 
+datatable(change_col_name(tab3), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Archipelago de San Andrés, Providencia y Santa Catalina
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab4 <- read_csv(file = "data/MUN_PER_DEP/mun_in_archipelago_de_san_andrs_providencia_y_santa_catalina.csv") 
+datatable(change_col_name(tab4), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Atlántico 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab5 <- read_csv(file = "data/MUN_PER_DEP/mun_in_atlntico.csv") 
+datatable(change_col_name(tab5), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Bogotá       
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab6 <- read_csv(file = "data/MUN_PER_DEP/mun_in_bogot.csv") 
+datatable(change_col_name(tab6), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Bolívar    
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab7 <- read_csv(file = "data/MUN_PER_DEP/mun_in_bolvar.csv") 
+datatable(change_col_name(tab7), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Boyacá
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab8 <- read_csv(file = "data/MUN_PER_DEP/mun_in_boyac.csv") 
+datatable(change_col_name(tab8), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Caldas                
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab9 <- read_csv(file = "data/MUN_PER_DEP/mun_in_caldas.csv") 
+datatable(change_col_name(tab9), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Caquetá   
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab10 <- read_csv(file = "data/MUN_PER_DEP/mun_in_caquet.csv") 
+datatable(change_col_name(tab10), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Casanare     
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab11 <- read_csv(file = "data/MUN_PER_DEP/mun_in_casanare.csv") 
+datatable(change_col_name(tab11), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Cauca               
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab12 <- read_csv(file = "data/MUN_PER_DEP/mun_in_cauca.csv") 
+datatable(change_col_name(tab12), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Cesar             
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab13 <- read_csv(file = "data/MUN_PER_DEP/mun_in_cesar.csv") 
+datatable(change_col_name(tab13), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Chocó  
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab14 <- read_csv(file = "data/MUN_PER_DEP/mun_in_choc.csv") 
+datatable(change_col_name(tab14), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Córdoba     
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab15 <- read_csv(file = "data/MUN_PER_DEP/mun_in_crdoba.csv") 
+datatable(change_col_name(tab15), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Cundinamarca 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab16 <- read_csv(file = "data/MUN_PER_DEP/mun_in_cundinamarca.csv") 
+datatable(change_col_name(tab16), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Guainía            
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab17 <- read_csv(file = "data/MUN_PER_DEP/mun_in_guaina.csv") 
+datatable(change_col_name(tab17), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Guaviare    
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab18 <- read_csv(file = "data/MUN_PER_DEP/mun_in_guaviare.csv") 
+datatable(change_col_name(tab18), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Huila     
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab19 <- read_csv(file = "data/MUN_PER_DEP/mun_in_huila.csv") 
+datatable(change_col_name(tab19), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### La Guajira
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab20 <- read_csv(file = "data/MUN_PER_DEP/mun_in_la_guajira.csv") 
+datatable(change_col_name(tab20), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Magdalena 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab21 <- read_csv(file = "data/MUN_PER_DEP/mun_in_magdalena.csv") 
+datatable(change_col_name(tab21), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Meta    
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab22 <- read_csv(file = "data/MUN_PER_DEP/mun_in_meta.csv") 
+datatable(change_col_name(tab22), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Nariño           
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab23 <- read_csv(file = "data/MUN_PER_DEP/mun_in_nario.csv") 
+datatable(change_col_name(tab23), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Norte de Santander
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab24 <- read_csv(file = "data/MUN_PER_DEP/mun_in_norte_de_santander.csv") 
+datatable(change_col_name(tab24), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Putumayo               
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab25 <- read_csv(file = "data/MUN_PER_DEP/mun_in_putumayo.csv") 
+datatable(change_col_name(tab25), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Quindío                
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab26 <- read_csv(file = "data/MUN_PER_DEP/mun_in_quindo.csv") 
+datatable(change_col_name(tab26), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Risaralda        
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab27 <- read_csv(file = "data/MUN_PER_DEP/mun_in_risaralda.csv") 
+datatable(change_col_name(tab27), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Santander                   
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab28 <- read_csv(file = "data/MUN_PER_DEP/mun_in_santander.csv") 
+datatable(change_col_name(tab28), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Sucre               
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab29 <- read_csv(file = "data/MUN_PER_DEP/mun_in_sucre.csv") 
+datatable(change_col_name(tab29), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Tolima            
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab30 <- read_csv(file = "data/MUN_PER_DEP/mun_in_tolima.csv") 
+datatable(change_col_name(tab30), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Valle del Cauca                
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab31 <- read_csv(file = "data/MUN_PER_DEP/mun_in_valle_del_cauca.csv") 
+datatable(change_col_name(tab31), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Vaupés                     
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab32 <- read_csv(file = "data/MUN_PER_DEP/mun_in_vaups.csv") 
+datatable(change_col_name(tab32), rownames = FALSE, options = list(pageLength = 5))
+```
+
+<br />
+
+##### Vichada    
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+tab33 <- read_csv(file = "data/MUN_PER_DEP/mun_in_vichada.csv") 
+datatable(change_col_name(tab33), rownames = FALSE, options = list(pageLength = 5))
+```
+
+
+
+
