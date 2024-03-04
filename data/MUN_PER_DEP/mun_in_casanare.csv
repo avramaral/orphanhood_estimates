@@ -1,20 +1,20 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Aguazul,17,39,56,0.167%,0.382%,0.549%
-Chámeza,0,0,0,0%,0%,0%
-Hato Corozal,6,5,11,0.132%,0.11%,0.242%
-La Salina,0,0,0,0%,0%,0%
-Maní,7,21,28,0.158%,0.474%,0.632%
-Monterrey,4,23,27,0.089%,0.508%,0.597%
-Nunchía,2,3,5,0.078%,0.117%,0.195%
-Orocué,1,17,18,0.033%,0.545%,0.578%
-Paz De Ariporo,17,39,56,0.139%,0.318%,0.457%
-Pore,4,18,22,0.097%,0.435%,0.532%
-Recetor,0,0,0,0%,0%,0%
-Sabanalarga,1,2,3,0.118%,0.236%,0.354%
-Sácama,2,14,16,0.082%,0.573%,0.655%
-San Luis De Palenque,1,0,1,0.185%,0%,0.185%
-Támara,19,32,51,0.261%,0.439%,0.7%
-Tauramena,4,19,23,0.098%,0.461%,0.559%
-Trinidad,0,5,5,0%,0.223%,0.223%
-Villanueva,10,38,48,0.096%,0.363%,0.459%
-Yopal,124,379,503,0.258%,0.787%,1.045%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Aguazul,56,0.549%,17,0.167%,39,0.382%
+Chámeza,0,0%,0,0%,0,0%
+Hato Corozal,11,0.242%,6,0.132%,5,0.11%
+La Salina,0,0%,0,0%,0,0%
+Maní,28,0.632%,7,0.158%,21,0.474%
+Monterrey,27,0.597%,4,0.089%,23,0.508%
+Nunchía,5,0.195%,2,0.078%,3,0.117%
+Orocué,18,0.578%,1,0.033%,17,0.545%
+Paz De Ariporo,56,0.457%,17,0.139%,39,0.318%
+Pore,22,0.532%,4,0.097%,18,0.435%
+Recetor,0,0%,0,0%,0,0%
+Sabanalarga,3,0.354%,1,0.118%,2,0.236%
+Sácama,16,0.655%,2,0.082%,14,0.573%
+San Luis De Palenque,1,0.185%,1,0.185%,0,0%
+Támara,51,0.7%,19,0.261%,32,0.439%
+Tauramena,23,0.559%,4,0.098%,19,0.461%
+Trinidad,5,0.223%,0,0%,5,0.223%
+Villanueva,48,0.459%,10,0.096%,38,0.363%
+Yopal,503,1.045%,124,0.258%,379,0.787%

@@ -1,47 +1,47 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Achí,4,23,27,0.061%,0.348%,0.409%
-Altos Del Rosario,3,13,16,0.087%,0.375%,0.462%
-Arenal,7,27,34,0.269%,1.037%,1.306%
-Arjona,19,40,59,0.089%,0.187%,0.276%
-Arroyohondo,0,1,1,0%,0.038%,0.038%
-Barranco De Loba,6,11,17,0.107%,0.196%,0.303%
-Calamar,7,6,13,0.092%,0.079%,0.171%
-Cantagallo,6,6,12,0.249%,0.249%,0.498%
-Cartagena De Indias,494,"1,394","1,888",0.199%,0.562%,0.761%
-Cicuco,3,12,15,0.059%,0.234%,0.293%
-Clemencia,0,7,7,0%,0.145%,0.145%
-Córdoba,3,5,8,0.058%,0.096%,0.154%
-El Carmen De Bolívar,28,79,107,0.127%,0.357%,0.484%
-El Guamo,0,0,0,0%,0%,0%
-El Peñón,3,2,5,0.113%,0.075%,0.188%
-Hatillo De Loba,1,4,5,0.022%,0.086%,0.108%
-Magangué,53,132,185,0.124%,0.307%,0.431%
-Mahates,10,16,26,0.108%,0.172%,0.28%
-Margarita,2,5,7,0.063%,0.157%,0.22%
-María La Baja,13,48,61,0.081%,0.298%,0.379%
-Mompós,14,40,54,0.089%,0.254%,0.343%
-Montecristo,2,3,5,0.037%,0.055%,0.092%
-Morales,2,9,11,0.028%,0.123%,0.151%
-Norosí,1,1,2,0.032%,0.032%,0.064%
-Pinillos,1,5,6,0.012%,0.056%,0.068%
-Regidor,1,1,2,0.048%,0.048%,0.096%
-Río Viejo,1,2,3,0.049%,0.098%,0.147%
-San Cristóbal,0,0,0,0%,0%,0%
-San Estanislao,3,1,4,0.058%,0.02%,0.078%
-San Fernando,2,3,5,0.061%,0.091%,0.152%
-San Jacinto,7,10,17,0.096%,0.137%,0.233%
-San Jacinto Del Cauca,2,6,8,0.065%,0.195%,0.26%
-San Juan Nepomuceno,8,11,19,0.078%,0.107%,0.185%
-San Martín De Loba,4,14,18,0.073%,0.255%,0.328%
-San Pablo,10,32,42,0.106%,0.337%,0.443%
-Santa Catalina,2,15,17,0.042%,0.311%,0.353%
-Santa Rosa,11,21,32,0.192%,0.366%,0.558%
-Santa Rosa Del Sur,18,59,77,0.179%,0.585%,0.764%
-Simití,8,13,21,0.16%,0.259%,0.419%
-Soplaviento,0,2,2,0%,0.078%,0.078%
-Talaigua Nuevo,3,10,13,0.062%,0.206%,0.268%
-Tiquisio,4,5,9,0.054%,0.067%,0.121%
-Turbaco,17,54,71,0.054%,0.172%,0.226%
-Turbaná,5,5,10,0.104%,0.104%,0.208%
-Villanueva,6,13,19,0.081%,0.175%,0.256%
-Zambrano,1,7,8,0.028%,0.191%,0.219%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Achí,27,0.409%,4,0.061%,23,0.348%
+Altos Del Rosario,16,0.462%,3,0.087%,13,0.375%
+Arenal,34,1.306%,7,0.269%,27,1.037%
+Arjona,59,0.276%,19,0.089%,40,0.187%
+Arroyohondo,1,0.038%,0,0%,1,0.038%
+Barranco De Loba,17,0.303%,6,0.107%,11,0.196%
+Calamar,13,0.171%,7,0.092%,6,0.079%
+Cantagallo,12,0.498%,6,0.249%,6,0.249%
+Cartagena De Indias,"1,888",0.761%,494,0.199%,"1,394",0.562%
+Cicuco,15,0.293%,3,0.059%,12,0.234%
+Clemencia,7,0.145%,0,0%,7,0.145%
+Córdoba,8,0.154%,3,0.058%,5,0.096%
+El Carmen De Bolívar,107,0.484%,28,0.127%,79,0.357%
+El Guamo,0,0%,0,0%,0,0%
+El Peñón,5,0.188%,3,0.113%,2,0.075%
+Hatillo De Loba,5,0.108%,1,0.022%,4,0.086%
+Magangué,185,0.431%,53,0.124%,132,0.307%
+Mahates,26,0.28%,10,0.108%,16,0.172%
+Margarita,7,0.22%,2,0.063%,5,0.157%
+María La Baja,61,0.379%,13,0.081%,48,0.298%
+Mompós,54,0.343%,14,0.089%,40,0.254%
+Montecristo,5,0.092%,2,0.037%,3,0.055%
+Morales,11,0.151%,2,0.028%,9,0.123%
+Norosí,2,0.064%,1,0.032%,1,0.032%
+Pinillos,6,0.068%,1,0.012%,5,0.056%
+Regidor,2,0.096%,1,0.048%,1,0.048%
+Río Viejo,3,0.147%,1,0.049%,2,0.098%
+San Cristóbal,0,0%,0,0%,0,0%
+San Estanislao,4,0.078%,3,0.058%,1,0.02%
+San Fernando,5,0.152%,2,0.061%,3,0.091%
+San Jacinto,17,0.233%,7,0.096%,10,0.137%
+San Jacinto Del Cauca,8,0.26%,2,0.065%,6,0.195%
+San Juan Nepomuceno,19,0.185%,8,0.078%,11,0.107%
+San Martín De Loba,18,0.328%,4,0.073%,14,0.255%
+San Pablo,42,0.443%,10,0.106%,32,0.337%
+Santa Catalina,17,0.353%,2,0.042%,15,0.311%
+Santa Rosa,32,0.558%,11,0.192%,21,0.366%
+Santa Rosa Del Sur,77,0.764%,18,0.179%,59,0.585%
+Simití,21,0.419%,8,0.16%,13,0.259%
+Soplaviento,2,0.078%,0,0%,2,0.078%
+Talaigua Nuevo,13,0.268%,3,0.062%,10,0.206%
+Tiquisio,9,0.121%,4,0.054%,5,0.067%
+Turbaco,71,0.226%,17,0.054%,54,0.172%
+Turbaná,10,0.208%,5,0.104%,5,0.104%
+Villanueva,19,0.256%,6,0.081%,13,0.175%
+Zambrano,8,0.219%,1,0.028%,7,0.191%

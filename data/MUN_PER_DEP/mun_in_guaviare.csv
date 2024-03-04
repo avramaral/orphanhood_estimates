@@ -1,5 +1,5 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Calamar,3,9,12,0.094%,0.282%,0.376%
-El Retorno,8,23,31,0.172%,0.494%,0.666%
-Miraflores,2,2,4,0.128%,0.128%,0.256%
-San José Del Guaviare,24,84,108,0.146%,0.511%,0.657%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Calamar,12,0.376%,3,0.094%,9,0.282%
+El Retorno,31,0.666%,8,0.172%,23,0.494%
+Miraflores,4,0.256%,2,0.128%,2,0.128%
+San José Del Guaviare,108,0.657%,24,0.146%,84,0.511%

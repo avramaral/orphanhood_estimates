@@ -1,30 +1,30 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Acacías,34,102,136,0.151%,0.452%,0.603%
-Barranca De Upía,2,13,15,0.084%,0.546%,0.63%
-Cabuyaro,2,3,5,0.108%,0.162%,0.27%
-Castilla La Nueva,3,11,14,0.066%,0.239%,0.305%
-Cubarral,3,8,11,0.159%,0.424%,0.583%
-Cumaral,3,11,14,0.046%,0.169%,0.215%
-El Calvario,0,1,1,0%,0.216%,0.216%
-El Castillo,4,2,6,0.158%,0.079%,0.237%
-El Dorado,4,7,11,0.333%,0.582%,0.915%
-Fuente De Oro,4,15,19,0.114%,0.427%,0.541%
-Granada,48,137,185,0.227%,0.648%,0.875%
-Guamal,4,17,21,0.093%,0.396%,0.489%
-La Macarena,4,17,21,0.036%,0.152%,0.188%
-Lejanías,6,8,14,0.176%,0.235%,0.411%
-Mapiripán,9,15,24,0.317%,0.527%,0.844%
-Mesetas,7,10,17,0.197%,0.281%,0.478%
-Puerto Concordia,3,11,14,0.096%,0.35%,0.446%
-Puerto Gaitán,30,50,80,0.165%,0.275%,0.44%
-Puerto Lleras,2,2,4,0.071%,0.071%,0.142%
-Puerto López,15,45,60,0.168%,0.504%,0.672%
-Puerto Rico,7,26,33,0.173%,0.643%,0.816%
-Restrepo,5,15,20,0.094%,0.28%,0.374%
-San Carlos De Guaroa,4,13,17,0.093%,0.303%,0.396%
-San Juan De Arama,4,7,11,0.163%,0.286%,0.449%
-San Juanito,2,0,2,0.612%,0%,0.612%
-San Martín,7,33,40,0.103%,0.482%,0.585%
-Uribe,2,4,6,0.069%,0.137%,0.206%
-Villavicencio,310,769,"1,079",0.257%,0.638%,0.895%
-Vistahermosa,11,33,44,0.188%,0.564%,0.752%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Acacías,136,0.603%,34,0.151%,102,0.452%
+Barranca De Upía,15,0.63%,2,0.084%,13,0.546%
+Cabuyaro,5,0.27%,2,0.108%,3,0.162%
+Castilla La Nueva,14,0.305%,3,0.066%,11,0.239%
+Cubarral,11,0.583%,3,0.159%,8,0.424%
+Cumaral,14,0.215%,3,0.046%,11,0.169%
+El Calvario,1,0.216%,0,0%,1,0.216%
+El Castillo,6,0.237%,4,0.158%,2,0.079%
+El Dorado,11,0.915%,4,0.333%,7,0.582%
+Fuente De Oro,19,0.541%,4,0.114%,15,0.427%
+Granada,185,0.875%,48,0.227%,137,0.648%
+Guamal,21,0.489%,4,0.093%,17,0.396%
+La Macarena,21,0.188%,4,0.036%,17,0.152%
+Lejanías,14,0.411%,6,0.176%,8,0.235%
+Mapiripán,24,0.844%,9,0.317%,15,0.527%
+Mesetas,17,0.478%,7,0.197%,10,0.281%
+Puerto Concordia,14,0.446%,3,0.096%,11,0.35%
+Puerto Gaitán,80,0.44%,30,0.165%,50,0.275%
+Puerto Lleras,4,0.142%,2,0.071%,2,0.071%
+Puerto López,60,0.672%,15,0.168%,45,0.504%
+Puerto Rico,33,0.816%,7,0.173%,26,0.643%
+Restrepo,20,0.374%,5,0.094%,15,0.28%
+San Carlos De Guaroa,17,0.396%,4,0.093%,13,0.303%
+San Juan De Arama,11,0.449%,4,0.163%,7,0.286%
+San Juanito,2,0.612%,2,0.612%,0,0%
+San Martín,40,0.585%,7,0.103%,33,0.482%
+Uribe,6,0.206%,2,0.069%,4,0.137%
+Villavicencio,"1,079",0.895%,310,0.257%,769,0.638%
+Vistahermosa,44,0.752%,11,0.188%,33,0.564%

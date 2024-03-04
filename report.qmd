@@ -22,6 +22,17 @@ The 32 departments and one capital district (Bogotá) can be grouped together in
 
 ### Orphanhood estimates
 
+The following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") at the national, regional, and department levels.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+main_table <- read_csv(file = "data/main_table.csv") 
+
+colnames(main_table)[4:7] <- c("Prev.", "Prev. (%)", "Incid.", "Incid. (%)")
+
+datatable(main_table, rownames = FALSE, options = list(pageLength = 10))
+```
+
+<br />
 These are the orphanhood prevalence estimates in 2021 (total and %) for all departments, stratified by regions.
 
 ![](images/prevalence_2021.jpeg)
@@ -36,36 +47,25 @@ These are the orphanhood incidence estimates in 2015 by municipality (per 1,000 
 
 ------------------------------------------------------------------------
 
-### Tables and raw data
-
-The following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") at the national, regional, and department levels.
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-main_table <- read_csv(file = "data/main_table.csv") 
-
-colnames(main_table)[4:7] <- c("Prev.", "Prev. (%)", "Incid.", "Incid. (%)")
-
-datatable(main_table, rownames = FALSE, options = list(pageLength = 40))
-```
-<br />
+### Other tables and raw data
 
 Complementary, the following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") of children who lost their mother, father, or both, at the national, regional, and department levels.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 secondary_table <- read_csv(file = "data/table_appendix.csv") 
 
-colnames(secondary_table)[4:15] <- c("Prev. Mother",
-                                     "Prev. Father",
-                                     "Prev. Both",
-                                     "Prev. Mother (%)",
-                                     "Prev. Father (%)",
+colnames(secondary_table)[4:15] <- c("Prev. Both",
                                      "Prev. Both (%)",
-                                     "Incid. Mother",
-                                     "Incid. Father",
                                      "Incid. Both",
+                                     "Incid. Both (%)",
+                                     "Prev. Mother",
+                                     "Prev. Mother (%)",
+                                     "Incid. Mother",
                                      "Incid. Mother (%)",
-                                     "Incid. Father (%)",
-                                     "Incid. Both (%)")
+                                     "Prev. Father",
+                                     "Prev. Father (%)",
+                                     "Incid. Father",
+                                     "Incid. Father (%)")
 
 datatable(secondary_table, rownames = FALSE, options = list(pageLength = 40))
 ```
@@ -80,13 +80,16 @@ Lastly, the following tables show the orphanhood incidence estimates in 2021 ("t
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 tab1 <- read_csv(file = "data/MUN_PER_DEP/mun_in_amazonas.csv") 
 
+
+# CHANGE ITTTTT
 change_col_name <- function (tab) {
-  colnames(tab)[2:7] <- c("Incid. Mother",
-                          "Incid. Father",
-                          "Incid. Both",
+  colnames(tab)[2:7] <- c("Incid. Both",
+                          "Incid. Both (%)",
+                          "Incid. Mother",
                           "Incid. Mother (%)",
-                          "Incid. Father (%)",
-                          "Incid. Both (%)")
+                          "Incid. Father",
+                          "Incid. Father (%)")
+  
   tab
 }
 

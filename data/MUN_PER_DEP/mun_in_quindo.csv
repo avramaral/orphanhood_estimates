@@ -1,13 +1,13 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Armenia,99,335,434,0.19%,0.643%,0.833%
-Buenavista,1,0,1,0.152%,0%,0.152%
-Calarcá,23,61,84,0.16%,0.424%,0.584%
-Circasia,7,17,24,0.126%,0.306%,0.432%
-Córdoba,2,2,4,0.159%,0.159%,0.318%
-Filandia,5,6,11,0.23%,0.276%,0.506%
-Génova,3,5,8,0.215%,0.357%,0.572%
-La Tebaida,9,42,51,0.101%,0.472%,0.573%
-Montenegro,16,39,55,0.217%,0.528%,0.745%
-Pijao,2,4,6,0.21%,0.419%,0.629%
-Quimbaya,7,26,33,0.125%,0.463%,0.588%
-Salento,1,2,3,0.065%,0.13%,0.195%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Armenia,434,0.833%,99,0.19%,335,0.643%
+Buenavista,1,0.152%,1,0.152%,0,0%
+Calarcá,84,0.584%,23,0.16%,61,0.424%
+Circasia,24,0.432%,7,0.126%,17,0.306%
+Córdoba,4,0.318%,2,0.159%,2,0.159%
+Filandia,11,0.506%,5,0.23%,6,0.276%
+Génova,8,0.572%,3,0.215%,5,0.357%
+La Tebaida,51,0.573%,9,0.101%,42,0.472%
+Montenegro,55,0.745%,16,0.217%,39,0.528%
+Pijao,6,0.629%,2,0.21%,4,0.419%
+Quimbaya,33,0.588%,7,0.125%,26,0.463%
+Salento,3,0.195%,1,0.065%,2,0.13%

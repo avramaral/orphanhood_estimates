@@ -1,31 +1,31 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Ayapel,23,41,64,0.169%,0.301%,0.47%
-Buenavista,7,18,25,0.114%,0.291%,0.405%
-Canalete,9,8,17,0.175%,0.156%,0.331%
-Cereté,24,104,128,0.088%,0.38%,0.468%
-Chimá,1,4,5,0.027%,0.107%,0.134%
-Chinú,12,30,42,0.105%,0.263%,0.368%
-Ciénaga De Oro,12,46,58,0.072%,0.275%,0.347%
-Cotorra,3,13,16,0.067%,0.29%,0.357%
-La Apartada,3,22,25,0.065%,0.476%,0.541%
-Lorica,55,135,190,0.2%,0.489%,0.689%
-Los Córdobas,3,10,13,0.06%,0.198%,0.258%
-Momil,8,9,17,0.164%,0.184%,0.348%
-Moñitos,27,97,124,0.107%,0.382%,0.489%
-Montelíbano,232,622,854,0.181%,0.485%,0.666%
-Montería,4,16,20,0.046%,0.181%,0.227%
-Planeta Rica,24,77,101,0.127%,0.408%,0.535%
-Pueblo Nuevo,8,16,24,0.1%,0.2%,0.3%
-Puerto Escondido,8,16,24,0.123%,0.246%,0.369%
-Puerto Libertador,14,40,54,0.102%,0.291%,0.393%
-Purísima De La Concepción,3,9,12,0.069%,0.206%,0.275%
-Sahagún,34,108,142,0.125%,0.395%,0.52%
-San Andrés De Sotavento,6,24,30,0.051%,0.201%,0.252%
-San Antero,3,23,26,0.032%,0.241%,0.273%
-San Bernardo Del Viento,10,35,45,0.107%,0.372%,0.479%
-San Carlos,8,17,25,0.111%,0.235%,0.346%
-San José De Uré,0,1,1,0%,0.022%,0.022%
-San Pelayo,6,23,29,0.055%,0.21%,0.265%
-Tierralta,40,139,179,0.117%,0.405%,0.522%
-Tuchín,3,8,11,0.019%,0.049%,0.068%
-Valencia,13,24,37,0.131%,0.241%,0.372%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Ayapel,64,0.47%,23,0.169%,41,0.301%
+Buenavista,25,0.405%,7,0.114%,18,0.291%
+Canalete,17,0.331%,9,0.175%,8,0.156%
+Cereté,128,0.468%,24,0.088%,104,0.38%
+Chimá,5,0.134%,1,0.027%,4,0.107%
+Chinú,42,0.368%,12,0.105%,30,0.263%
+Ciénaga De Oro,58,0.347%,12,0.072%,46,0.275%
+Cotorra,16,0.357%,3,0.067%,13,0.29%
+La Apartada,25,0.541%,3,0.065%,22,0.476%
+Lorica,190,0.689%,55,0.2%,135,0.489%
+Los Córdobas,13,0.258%,3,0.06%,10,0.198%
+Momil,17,0.348%,8,0.164%,9,0.184%
+Moñitos,124,0.489%,27,0.107%,97,0.382%
+Montelíbano,854,0.666%,232,0.181%,622,0.485%
+Montería,20,0.227%,4,0.046%,16,0.181%
+Planeta Rica,101,0.535%,24,0.127%,77,0.408%
+Pueblo Nuevo,24,0.3%,8,0.1%,16,0.2%
+Puerto Escondido,24,0.369%,8,0.123%,16,0.246%
+Puerto Libertador,54,0.393%,14,0.102%,40,0.291%
+Purísima De La Concepción,12,0.275%,3,0.069%,9,0.206%
+Sahagún,142,0.52%,34,0.125%,108,0.395%
+San Andrés De Sotavento,30,0.252%,6,0.051%,24,0.201%
+San Antero,26,0.273%,3,0.032%,23,0.241%
+San Bernardo Del Viento,45,0.479%,10,0.107%,35,0.372%
+San Carlos,25,0.346%,8,0.111%,17,0.235%
+San José De Uré,1,0.022%,0,0%,1,0.022%
+San Pelayo,29,0.265%,6,0.055%,23,0.21%
+Tierralta,179,0.522%,40,0.117%,139,0.405%
+Tuchín,11,0.068%,3,0.019%,8,0.049%
+Valencia,37,0.372%,13,0.131%,24,0.241%

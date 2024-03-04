@@ -1,15 +1,15 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Apía,5,8,13,0.22%,0.351%,0.571%
-Balboa,0,4,4,0%,0.382%,0.382%
-Belén De Umbría,14,19,33,0.289%,0.393%,0.682%
-Dosquebradas,72,187,259,0.174%,0.45%,0.624%
-Guática,3,7,10,0.111%,0.259%,0.37%
-La Celia,8,7,15,0.648%,0.567%,1.215%
-La Virginia,14,38,52,0.258%,0.698%,0.956%
-Marsella,1,11,12,0.031%,0.341%,0.372%
-Mistrató,4,15,19,0.057%,0.212%,0.269%
-Pereira,145,563,708,0.178%,0.69%,0.868%
-Pueblo Rico,12,27,39,0.173%,0.388%,0.561%
-Quinchía,4,23,27,0.064%,0.365%,0.429%
-Santa Rosa De Cabal,23,60,83,0.15%,0.392%,0.542%
-Santuario,3,15,18,0.115%,0.572%,0.687%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Apía,13,0.571%,5,0.22%,8,0.351%
+Balboa,4,0.382%,0,0%,4,0.382%
+Belén De Umbría,33,0.682%,14,0.289%,19,0.393%
+Dosquebradas,259,0.624%,72,0.174%,187,0.45%
+Guática,10,0.37%,3,0.111%,7,0.259%
+La Celia,15,1.215%,8,0.648%,7,0.567%
+La Virginia,52,0.956%,14,0.258%,38,0.698%
+Marsella,12,0.372%,1,0.031%,11,0.341%
+Mistrató,19,0.269%,4,0.057%,15,0.212%
+Pereira,708,0.868%,145,0.178%,563,0.69%
+Pueblo Rico,39,0.561%,12,0.173%,27,0.388%
+Quinchía,27,0.429%,4,0.064%,23,0.365%
+Santa Rosa De Cabal,83,0.542%,23,0.15%,60,0.392%
+Santuario,18,0.687%,3,0.115%,15,0.572%

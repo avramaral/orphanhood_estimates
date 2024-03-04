@@ -1,14 +1,14 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Colón,4,7,11,0.267%,0.466%,0.733%
-Mocoa,38,78,116,0.271%,0.556%,0.827%
-Orito,9,46,55,0.09%,0.459%,0.549%
-Puerto Asís,54,143,197,0.287%,0.758%,1.045%
-Puerto Caicedo,4,19,23,0.119%,0.565%,0.684%
-Puerto Guzmán,7,30,37,0.084%,0.36%,0.444%
-Puerto Leguízamo,16,43,59,0.133%,0.356%,0.489%
-San Francisco,3,2,5,0.197%,0.132%,0.329%
-San Miguel,5,14,19,0.107%,0.299%,0.406%
-Santiago,1,7,8,0.047%,0.325%,0.372%
-Sibundoy,5,15,20,0.127%,0.379%,0.506%
-Valle Del Guamuez,10,51,61,0.129%,0.655%,0.784%
-Villagarzón,11,39,50,0.135%,0.478%,0.613%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Colón,11,0.733%,4,0.267%,7,0.466%
+Mocoa,116,0.827%,38,0.271%,78,0.556%
+Orito,55,0.549%,9,0.09%,46,0.459%
+Puerto Asís,197,1.045%,54,0.287%,143,0.758%
+Puerto Caicedo,23,0.684%,4,0.119%,19,0.565%
+Puerto Guzmán,37,0.444%,7,0.084%,30,0.36%
+Puerto Leguízamo,59,0.489%,16,0.133%,43,0.356%
+San Francisco,5,0.329%,3,0.197%,2,0.132%
+San Miguel,19,0.406%,5,0.107%,14,0.299%
+Santiago,8,0.372%,1,0.047%,7,0.325%
+Sibundoy,20,0.506%,5,0.127%,15,0.379%
+Valle Del Guamuez,61,0.784%,10,0.129%,51,0.655%
+Villagarzón,50,0.613%,11,0.135%,39,0.478%

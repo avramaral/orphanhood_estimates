@@ -1,8 +1,8 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Arauca,49,152,201,0.216%,0.668%,0.884%
-Arauquita,16,80,96,0.088%,0.437%,0.525%
-Cravo Norte,3,5,8,0.136%,0.226%,0.362%
-Fortul,23,39,62,0.305%,0.516%,0.821%
-Puerto Rondón,1,6,7,0.07%,0.418%,0.488%
-Saravena,16,86,102,0.086%,0.457%,0.543%
-Tame,42,107,149,0.271%,0.689%,0.96%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Arauca,201,0.884%,49,0.216%,152,0.668%
+Arauquita,96,0.525%,16,0.088%,80,0.437%
+Cravo Norte,8,0.362%,3,0.136%,5,0.226%
+Fortul,62,0.821%,23,0.305%,39,0.516%
+Puerto Rondón,7,0.488%,1,0.07%,6,0.418%
+Saravena,102,0.543%,16,0.086%,86,0.457%
+Tame,149,0.96%,42,0.271%,107,0.689%

@@ -1,24 +1,24 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Baranoa,23,64,87,0.126%,0.35%,0.476%
-Barranquilla,780,"2,164","2,944",0.269%,0.744%,1.013%
-Campo De La Cruz,10,17,27,0.13%,0.221%,0.351%
-Candelaria,3,9,12,0.055%,0.164%,0.219%
-Galapa,23,44,67,0.121%,0.231%,0.352%
-Juan De Acosta,6,20,26,0.106%,0.351%,0.457%
-Luruaco,19,23,42,0.199%,0.241%,0.44%
-Malambo,50,124,174,0.129%,0.318%,0.447%
-Manatí,3,13,16,0.043%,0.183%,0.226%
-Palmar De Varela,9,20,29,0.111%,0.247%,0.358%
-Piojó,1,2,3,0.058%,0.116%,0.174%
-Polonuevo,6,19,25,0.116%,0.368%,0.484%
-Ponedera,2,18,20,0.025%,0.221%,0.246%
-Puerto Colombia,18,65,83,0.128%,0.461%,0.589%
-Repelón,5,17,22,0.058%,0.198%,0.256%
-Sabanagrande,9,26,35,0.091%,0.262%,0.353%
-Sabanalarga,47,106,153,0.164%,0.369%,0.533%
-Santa Lucía,2,7,9,0.046%,0.161%,0.207%
-Santo Tomás,16,15,31,0.199%,0.187%,0.386%
-Soledad,228,661,889,0.145%,0.418%,0.563%
-Suan,2,4,6,0.051%,0.101%,0.152%
-Tubará,1,9,10,0.027%,0.239%,0.266%
-Usiacurí,1,6,7,0.039%,0.23%,0.269%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Baranoa,87,0.476%,23,0.126%,64,0.35%
+Barranquilla,"2,944",1.013%,780,0.269%,"2,164",0.744%
+Campo De La Cruz,27,0.351%,10,0.13%,17,0.221%
+Candelaria,12,0.219%,3,0.055%,9,0.164%
+Galapa,67,0.352%,23,0.121%,44,0.231%
+Juan De Acosta,26,0.457%,6,0.106%,20,0.351%
+Luruaco,42,0.44%,19,0.199%,23,0.241%
+Malambo,174,0.447%,50,0.129%,124,0.318%
+Manatí,16,0.226%,3,0.043%,13,0.183%
+Palmar De Varela,29,0.358%,9,0.111%,20,0.247%
+Piojó,3,0.174%,1,0.058%,2,0.116%
+Polonuevo,25,0.484%,6,0.116%,19,0.368%
+Ponedera,20,0.246%,2,0.025%,18,0.221%
+Puerto Colombia,83,0.589%,18,0.128%,65,0.461%
+Repelón,22,0.256%,5,0.058%,17,0.198%
+Sabanagrande,35,0.353%,9,0.091%,26,0.262%
+Sabanalarga,153,0.533%,47,0.164%,106,0.369%
+Santa Lucía,9,0.207%,2,0.046%,7,0.161%
+Santo Tomás,31,0.386%,16,0.199%,15,0.187%
+Soledad,889,0.563%,228,0.145%,661,0.418%
+Suan,6,0.152%,2,0.051%,4,0.101%
+Tubará,10,0.266%,1,0.027%,9,0.239%
+Usiacurí,7,0.269%,1,0.039%,6,0.23%

@@ -1,31 +1,31 @@
-Municipality,Incidence count for 'Mothers' in 2021,Incidence count for 'Fathers' in 2021,Incidence count for 'Mothers or Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Fathers' in 2021,Inicidence rate (% of children aged 0-17 years) for 'Mothers or Fathers' in 2021
-Acandí,16,10,26,0.332%,0.207%,0.539%
-Alto Baudó,0,1,1,0%,0.008%,0.008%
-Atrato,4,4,8,0.206%,0.206%,0.412%
-Bagadó,1,1,2,0.019%,0.019%,0.038%
-Bahía Solano,5,9,14,0.143%,0.258%,0.401%
-Bajo Baudó,2,1,3,0.022%,0.011%,0.033%
-Bojayá,3,1,4,0.047%,0.016%,0.063%
-Carmen Del Darién,1,1,2,0.015%,0.015%,0.03%
-Cértegui,6,15,21,0.139%,0.348%,0.487%
-Condoto,1,1,2,0.067%,0.067%,0.134%
-El Cantón Del San Pablo,0,3,3,0%,0.126%,0.126%
-El Carmen De Atrato,5,9,14,0.181%,0.325%,0.506%
-El Litoral Del San Juan,0,0,0,0%,0%,0%
-Istmina,15,23,38,0.143%,0.218%,0.361%
-Juradó,0,1,1,0%,0.05%,0.05%
-Lloró,4,2,6,0.086%,0.043%,0.129%
-Medio Atrato,0,1,1,0%,0.024%,0.024%
-Medio Baudó,0,0,0,0%,0%,0%
-Medio San Juan,1,1,2,0.028%,0.028%,0.056%
-Nóvita,1,6,7,0.067%,0.399%,0.466%
-Nuquí,0,3,3,0%,0.09%,0.09%
-Quibdó,114,308,422,0.274%,0.739%,1.013%
-Río Iró,3,23,26,0.015%,0.115%,0.13%
-Río Quito,0,2,2,0%,0.114%,0.114%
-Riosucio,2,1,3,0.056%,0.028%,0.084%
-San José Del Palmar,2,5,7,0.104%,0.259%,0.363%
-Sipí,1,1,2,0.083%,0.083%,0.166%
-Tadó,10,24,34,0.154%,0.369%,0.523%
-Unguía,3,9,12,0.057%,0.171%,0.228%
-Unión Panamericana,3,2,5,0.126%,0.084%,0.21%
+Municipality,Incidence count for Both in 2021,Inicidence rate (% of children aged 0-17 years) for Both in 2021,Incidence count for Mothers in 2021,Inicidence rate (% of children aged 0-17 years) for Mothers in 2021,Incidence count for Fathers in 2021,Inicidence rate (% of children aged 0-17 years) for Fathers in 2021
+Acandí,26,0.539%,16,0.332%,10,0.207%
+Alto Baudó,1,0.008%,0,0%,1,0.008%
+Atrato,8,0.412%,4,0.206%,4,0.206%
+Bagadó,2,0.038%,1,0.019%,1,0.019%
+Bahía Solano,14,0.401%,5,0.143%,9,0.258%
+Bajo Baudó,3,0.033%,2,0.022%,1,0.011%
+Bojayá,4,0.063%,3,0.047%,1,0.016%
+Carmen Del Darién,2,0.03%,1,0.015%,1,0.015%
+Cértegui,21,0.487%,6,0.139%,15,0.348%
+Condoto,2,0.134%,1,0.067%,1,0.067%
+El Cantón Del San Pablo,3,0.126%,0,0%,3,0.126%
+El Carmen De Atrato,14,0.506%,5,0.181%,9,0.325%
+El Litoral Del San Juan,0,0%,0,0%,0,0%
+Istmina,38,0.361%,15,0.143%,23,0.218%
+Juradó,1,0.05%,0,0%,1,0.05%
+Lloró,6,0.129%,4,0.086%,2,0.043%
+Medio Atrato,1,0.024%,0,0%,1,0.024%
+Medio Baudó,0,0%,0,0%,0,0%
+Medio San Juan,2,0.056%,1,0.028%,1,0.028%
+Nóvita,7,0.466%,1,0.067%,6,0.399%
+Nuquí,3,0.09%,0,0%,3,0.09%
+Quibdó,422,1.013%,114,0.274%,308,0.739%
+Río Iró,26,0.13%,3,0.015%,23,0.115%
+Río Quito,2,0.114%,0,0%,2,0.114%
+Riosucio,3,0.084%,2,0.056%,1,0.028%
+San José Del Palmar,7,0.363%,2,0.104%,5,0.259%
+Sipí,2,0.166%,1,0.083%,1,0.083%
+Tadó,34,0.523%,10,0.154%,24,0.369%
+Unguía,12,0.228%,3,0.057%,9,0.171%
+Unión Panamericana,5,0.21%,3,0.126%,2,0.084%
