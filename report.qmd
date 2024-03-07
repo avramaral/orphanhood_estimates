@@ -20,6 +20,18 @@ The 32 departments and one capital district (Bogotá) can be grouped together in
 |----------------------|----------------------|----------------------|
 | ![](images/map1.png) | ![](images/map2.png) | ![](images/map3.png) |
 
+Also, the Colombia municipalities can be categorized, with respected to the "areas with intense conflict", according to the [Programas de Desarrollo con Enfoque Territorial](https://portal.renovacionterritorio.gov.co/Publicaciones/municipios_pdet_subregiones), PDET (left map), and the classification proposed by [Centro de Recursos para el Análisis de Conflictos](https://www.cerac.org.co/es/infograf%C3%ADa/tipologia-del-conflicto-armado-por-municipios.html), CERAC (right map)--considering the period from 2000 to 2012.
+
+|                           |                            |
+|---------------------------|----------------------------|
+| ![](images/map_PDET.jpeg) | ![](images/map_CERAC.jpeg) |
+
+The PDET includes 170 municipalities that were prioritized as the territories most affected by armed conflict, with higher levels of poverty, presence of illicit economies, and institutional weakness.
+
+The categorization from CERAC classifies the municipalities according to the presence and intensity of the armed conflict (considering the period from 2000 to 2012).
+
+------------------------------------------------------------------------
+
 ### Orphanhood estimates
 
 The following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") at the national, regional, and department levels.
@@ -41,11 +53,59 @@ These are the orphanhood incidence estimates from 2015 to 2021 (for children who
 
 ![](images/incidence_rel.jpeg)
 
-These are the orphanhood incidence estimates in 2015 by municipality (per 1,000 children aged 0-17 years).
+These are the orphanhood incidence estimates (in %) in 2021 by municipality (per 1,000 children aged 0-17 years).
 
 ![](images/orphans_rate_2021.jpeg)
 
+As a *remark*, we conducted a sensitivity analysis when handling the outliers and tested the impact of treating outliers classified as PDET as typical values. However, we observed no significant difference in the spatial distribution of orphanhood incidence.
+
 ------------------------------------------------------------------------
+
+As mentioned before, the municipalities can be grouped based on the presence and intensity of armed conflict. The following image shows the distribution of the orphanhood incidence estimates (in %) by municipalities from 2015 to 2021 grouped by gender and "type of conflict".
+
+![](images/boxplot_mun_conflict_rel_2015-2021.jpeg)
+
+The following plot shows similar results.
+
+![](images/incidence_mun_rel.jpeg)
+
+Complementary, the plots below show the estimated orphanhood incidence in 2021 (in %) for all municipalities (grouped by department) and classified according to the PDET and CERAC.
+
+
+![](images/MUNICIPALITY/orphans_rate_by_mun_Amazonas.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Antioquia.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Arauca.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Archipelago de San Andrés, Providencia y Santa Catalina.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Atlántico.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Bogotá.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Bolívar.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Boyacá.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Caldas.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Caquetá.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Casanare.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Cauca.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Cesar.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Chocó.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Córdoba.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Cundinamarca.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Guainía.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Guaviare.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Huila.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_La Guajira.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Magdalena.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Meta.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Nariño.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Norte de Santander.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Putumayo.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Quindío.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Risaralda.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Santander.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Sucre.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Tolima.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Valle del Cauca.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Vaupés.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Vichada.jpeg)
+
 
 ### Other tables and raw data
 
