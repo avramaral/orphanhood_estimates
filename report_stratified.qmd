@@ -17,10 +17,16 @@ library("DT")
 The 32 departments and one capital district (Bogotá) can be grouped together into the 6 natural regions of Colombia, namely, Pacífico, Caribe, Andina, Orinoquía, Amazónica, and Insular.
 
 |                      |                      |                                   |
-|----------------------|----------------------|-----------------------------------|
+|--------------------|--------------------|--------------------------------|
 | ![](images/map1.png) | ![](images/map2.png) | ![](images/map3.png){width="193"} |
 
-Also, the Colombia municipalities can be categorized the [Programas de Desarrollo con Enfoque Territorial](https://portal.renovacionterritorio.gov.co/Publicaciones/municipios_pdet_subregiones), PDET (left map) or based on a multidimensional poverty index (right map), namely "*Medida de pobreza multidimensional de fuente censal en el total del municipio* (MPM)."
+As a way to exclude the unreliable municipalities, we are not considering the 20 regions with the lowest population density. This threshold is based on the following plot (notice that the `Population density` is in the log-scale).
+
+![](images/pop_density_vs_death_rate.jpeg)
+
+---
+
+The Colombia municipalities can be categorized the [Programas de Desarrollo con Enfoque Territorial](https://portal.renovacionterritorio.gov.co/Publicaciones/municipios_pdet_subregiones), PDET (left map) or based on a multidimensional poverty index (right map), namely "*Medida de pobreza multidimensional de fuente censal en el total del municipio* (MPM)."
 
 The PDET includes 170 municipalities that were prioritized as the territories most affected by armed conflict, with higher levels of poverty, presence of illicit economies, and institutional weakness.
 
@@ -30,26 +36,23 @@ The PDET includes 170 municipalities that were prioritized as the territories mo
 
 ### Death and fertility rates
 
-The first thing we can analyze is the death and fertility rates in 2021 (averaged over gender and age group). The following plots show the death (left map) and fertility (right map) group by quintile; i.e., ordered.  
+The first thing we can analyze is the death and fertility rates in 2021 (averaged over gender and age group). The following plots show the death (left map) and fertility (right map) group by quintile; i.e., ordered.
 
-![](images/summ_death_fertility_rate_cat.jpeg)
-From these maps, we can notice that the death rates seem to be lower in the south/east municipalities (poorest places) whilst the fertility rates are higher.
+![](images/summ_death_fertility_rate_cat.jpeg) From these maps, we can notice that the death rates seem to be lower in the south/east municipalities (poorest places) whilst the fertility rates are higher.
 
----
+------------------------------------------------------------------------
 
 We can also analyze these rates grouped by the PDET or MPM classification. The plots below show these estimates for 2021.
 
 #### PDET
 
-![](images/RATES/2021_p_mort_PDET.jpeg)
-![](images/RATES/2021_p_fert_PDET.jpeg)
+![](images/RATES/2021_p_mort_PDET.jpeg) ![](images/RATES/2021_p_fert_PDET.jpeg)
 
 #### MPM (or poverty index)
 
-![](images/RATES/2021_p_mort_PVRT.jpeg)
-![](images/RATES/2021_p_fert_PVRT.jpeg)
+![](images/RATES/2021_p_mort_PVRT.jpeg) ![](images/RATES/2021_p_fert_PVRT.jpeg)
 
-### Orphanhood estimates
+### Orphanhood estimates <span style="color: red;">(yet to be updated with the excluded municipalities)</span>
 
 The following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") at the national, regional, and department levels.
 
@@ -61,14 +64,9 @@ colnames(main_table)[4:7] <- c("Prev.", "Prev. (%)", "Incid.", "Incid. (%)")
 datatable(main_table, rownames = FALSE, options = list(pageLength = 10))
 ```
 
-<br />
-These are the orphanhood prevalence estimates in 2021 (total and %) for all departments, stratified by regions.
+<br /> These are the orphanhood prevalence estimates in 2021 (total and %) for all departments, stratified by regions.
 
 ![](images/prevalence_2021.jpeg)
-
-These are the orphanhood incidence estimates from 2015 to 2021 (for children who lost their mother, father, or both) for all departments, stratified by regions.
-
-![](images/incidence_rel.jpeg)
 
 These are the orphanhood incidence estimates (in %) in 2021 by municipality (per 1,000 children aged 0-17 years).
 
@@ -76,76 +74,54 @@ These are the orphanhood incidence estimates (in %) in 2021 by municipality (per
 
 ------------------------------------------------------------------------
 
-As mentioned before, the municipalities can be grouped based on the PDET and MPM classification. The following image shows the distribution of the orphanhood incidence estimates (in %) by municipalities from 2015 to 2021 stratified by gender and PDET or MPM.
+As mentioned before, the municipalities can be grouped based on the PDET and MPM classification. The following images show the distribution of the orphanhood incidence estimates (in %) by municipalities from 2015 to 2021 stratified by gender and PDET or MPM. The plots show the <span style="color: red;">50%</span> and <span style="color: blue;">95%</span> intervals with mean represented by "$\times$".
 
 #### PDET
 
-![](images/boxplot_mun_conflict_rel_PDET_2015-2021.jpeg)
+![](images/boxplot_mun_conflict_rel_PDET_2015-2021_errorbar.jpeg)
 
 #### MPM (or poverty index)
 
-![](images/boxplot_mun_conflict_rel_2015-2021.jpeg)
+![](images/boxplot_mun_conflict_rel_2015-2021_errorbar.jpeg)
 
----
+------------------------------------------------------------------------
 
 Complementary, the plots below show the estimated orphanhood incidence in 2021 (in %) for all municipalities (grouped by department) and classified according to the PDET and MPM
 
-![](images/MUNICIPALITY/orphans_rate_by_mun_Amazonas.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Antioquia.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Arauca.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Archipelago de San Andrés, Providencia y Santa Catalina.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Atlántico.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Bogotá.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Bolívar.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Boyacá.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Caldas.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Caquetá.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Casanare.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Cauca.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Cesar.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Chocó.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Córdoba.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Cundinamarca.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Guainía.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Guaviare.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Huila.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_La Guajira.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Magdalena.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Meta.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Nariño.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Norte de Santander.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Putumayo.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Quindío.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Risaralda.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Santander.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Sucre.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Tolima.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Valle del Cauca.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Vaupés.jpeg)
-![](images/MUNICIPALITY/orphans_rate_by_mun_Vichada.jpeg)
+![](images/MUNICIPALITY/orphans_rate_by_mun_Amazonas.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Antioquia.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Arauca.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Archipelago%20de%20San%20Andrés,%20Providencia%20y%20Santa%20Catalina.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Atlántico.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Bogotá.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Bolívar.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Boyacá.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Caldas.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Caquetá.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Casanare.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Cauca.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Cesar.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Chocó.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Córdoba.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Cundinamarca.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Guainía.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Guaviare.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Huila.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_La%20Guajira.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Magdalena.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Meta.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Nariño.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Norte%20de%20Santander.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Putumayo.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Quindío.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Risaralda.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Santander.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Sucre.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Tolima.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Valle%20del%20Cauca.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Vaupés.jpeg) ![](images/MUNICIPALITY/orphans_rate_by_mun_Vichada.jpeg)
 
-### Raw data
+<!-- ### Raw data -->
 
-Complementary, the following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") of children who lost their mother, father, or both, at the national, regional, and department levels.
+<!-- Complementary, the following table shows the orphanhood prevalence and incidence estimates in 2021 ("total" and "% of children aged 0-17 years") of children who lost their mother, father, or both, at the national, regional, and department levels. -->
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-secondary_table <- read_csv(file = "data/table_appendix.csv") 
+<!-- ```{r, echo = FALSE, message = FALSE, warning = FALSE} -->
 
-colnames(secondary_table)[4:15] <- c("Prev. Both",
-                                     "Prev. Both (%)",
-                                     "Incid. Both",
-                                     "Incid. Both (%)",
-                                     "Prev. Mother",
-                                     "Prev. Mother (%)",
-                                     "Incid. Mother",
-                                     "Incid. Mother (%)",
-                                     "Prev. Father",
-                                     "Prev. Father (%)",
-                                     "Incid. Father",
-                                     "Incid. Father (%)")
+<!-- secondary_table <- read_csv(file = "data/table_appendix.csv")  -->
 
-datatable(secondary_table, rownames = FALSE, options = list(pageLength = 10))
-```
+<!-- colnames(secondary_table)[4:15] <- c("Prev. Both", -->
 
+<!--                                      "Prev. Both (%)", -->
 
+<!--                                      "Incid. Both", -->
 
+<!--                                      "Incid. Both (%)", -->
+
+<!--                                      "Prev. Mother", -->
+
+<!--                                      "Prev. Mother (%)", -->
+
+<!--                                      "Incid. Mother", -->
+
+<!--                                      "Incid. Mother (%)", -->
+
+<!--                                      "Prev. Father", -->
+
+<!--                                      "Prev. Father (%)", -->
+
+<!--                                      "Incid. Father", -->
+
+<!--                                      "Incid. Father (%)") -->
+
+<!-- datatable(secondary_table, rownames = FALSE, options = list(pageLength = 10)) -->
+
+<!-- ``` -->
