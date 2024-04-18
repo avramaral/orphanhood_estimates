@@ -63,9 +63,13 @@ From the above maps, we can notice that the death rates seem to be lower in the 
 
 Secondly, let us plot the rates for 1092 ($1121 - 29$) municipalities, i.e., after excluding the locations with low population density. It is worth noting that the municipalities had to be re-ordered/re-classified after excluding the 29 locations.
 
-![](images/summ_death_fertility_rate_cat.jpeg) 
+![](images/summ_death_fertility_rate_cat_FALSE.jpeg) 
 
-We can also analyze these rates grouped by the PDET or MPM classification. The plots below show these estimates for 2021 considering only the 1092 ($1121 - 29$) municipalities with high population density.
+Now, let us take it one step further and **standardize the rates** based on the population data from 2018 (census year). That is, we will rank the rates based on the reference population, assuming the age-specific rates are as observed. The following maps show such standardized rates in 2021 (based on the quintiles), similarly to before.
+
+![](images/summ_death_fertility_rate_cat_TRUE.jpeg) 
+
+We can also analyze these rates grouped by age and the PDET or MPM classifications. The plots below show these estimates for 2021 considering only the 1092 ($1121 - 29$) municipalities with high population density.
 
 **Remark:** all boxplots are defined based on the $2.5^{\text{th}}$, $25^{\text{th}}$, $50^{\text{th}}$, $75^{\text{th}}$, and $97.5^{\text{th}}$ percentiles (with no outliers). 
 
